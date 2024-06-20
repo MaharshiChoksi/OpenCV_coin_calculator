@@ -3,5 +3,5 @@ Pillow
 opencv-python-headless
 numpy
 imutils
-scikit-image
+scikit-image==0.20.0
 scipy
