@@ -11,11 +11,11 @@
 
 > NOTE: This this program only counts total coins not its value
 
-A). Init program
-B). Ask for picture (via camera or photo)
-C). Convert to grayscale
-D). Markdown complete round coins not half ones
-E). Markdown it green as its counted
-F). Add it to total counter
-G). Capture the calculated picture and save it as screenshot
-H). Exit
+1. Init program
+2. Ask for picture (via camera or photo)
+3. Convert to grayscale
+4. Markdown complete round coins not half ones
+5. Markdown it green as its counted
+6. Add it to total counter
+7. Capture the calculated picture and save it as screenshot
+8. Exit
