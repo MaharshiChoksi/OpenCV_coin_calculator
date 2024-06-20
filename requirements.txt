@@ -1,6 +1,6 @@
 streamlit
-PIL
-cv2
+Pillow
+opencv-python
 numpy
 imutils
 scikit-image
