@@ -30,7 +30,7 @@ def find_coins(img):
     # compute the exact Euclidean distance from every binary
     # pixel to the nearest zero pixel, then find peaks in this distance map
     D = ndimage.distance_transform_edt(thresh)
-    localMax = peak_local_max(D, min_distance=20, labels=thresh)
+    localMax = peak_local_max(D, min_distance=20, indices=False, labels=thresh)
     # perform a connected component analysis on the local peaks,
     # using 8-connectivity, then appy the Watershed algorithm
     markers = ndimage.label(localMax, structure=np.ones((3, 3)))[0]
